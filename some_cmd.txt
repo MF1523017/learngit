@@ -10,3 +10,4 @@ git reset --hard HEAD^ //return the last version
 git reset --hard HEAD~100 //return the last 100 version
 git reset --hard commit_id //return the commit_id version
 git reflog //see the history and commit_id
+git checkout -- filename
