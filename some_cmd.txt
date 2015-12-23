@@ -1,0 +1,12 @@
+git init
+ls -ah
+git add filename
+git commit -m "annotation"
+git status //see the status
+git diff filename //check out the difference
+git log //see the history 
+git log --pretty=oneline
+git reset --hard HEAD^ //return the last version
+git reset --hard HEAD~100 //return the last 100 version
+git reset --hard commit_id //return the commit_id version
+git reflog //see the history and commit_id
