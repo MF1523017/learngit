@@ -12,3 +12,5 @@ git reset --hard commit_id //return the commit_id version
 git reflog //see the history and commit_id
 git checkout -- filename//backout the change
 git rm filename//remove the filename
+git remote add origin https://github.com/MF1523017/learngit.git
+git push -u origin master
