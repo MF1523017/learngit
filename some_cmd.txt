@@ -14,3 +14,9 @@ git checkout -- filename//backout the change
 git rm filename//remove the filename
 git remote add origin https://github.com/MF1523017/learngit.git
 git push -u origin master
+
+git branch //查看分支
+git branch <name>//创建分支
+git checkout <name>//切换分支
+git merge <name>//合并分支
+git branch -d <name>//删除分支
