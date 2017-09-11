@@ -20,3 +20,4 @@ git branch <name>//创建分支
 git checkout <name>//切换分支
 git merge <name>//合并分支
 git branch -d <name>//删除分支
+git rm --cached files // 删除git add 添加之后的文件
